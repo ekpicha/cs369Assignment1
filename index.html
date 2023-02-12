@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>It Shop</title>
+    <title>JubJib Shop</title>
 </head>
+<style>
+    body {
+        background-image: url('./image/open2.jpg');
+        background-size: cover;
+    }
+</style>
 <body>
-    <div>
-        <h1>Test หัวข้อ</h1>
-    </div>
+    <section class="navigation_area">
+        <div class="container"> 
+            <div class="logo">
+                <a href="./index.html"><img src="./image/logo.jpg" alt="logopic"></a>
+                <a href="./index.html">JubJib Shop</a>
+            </div>
+            <div class="menu">
+                <a href="./index.html">Account</a>
+                <a href="./index.html">Wishlist</a>
+                <a href="./index.html">Cart</a>
+                <a href="./register.html"><button>Register</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="herosection_area">
+        <div class="container2">
+            <div class="hero">
+                <!-- <img src="./image/open.jpg" alt="heropic"> -->
+                <p id="bigtext">Login ...</p>
+                <p>-- ต้องการอุปกรณ์ IT เมื่อไหร่ แค่แวะมา :D --</p>
+            </div>
+            <br><br><br><br>
+            <!-- <form> -->
+                <div class="form">
+                    <label for="user">Username : </label>
+                    <input type="text" placeholder="Enter Username" name="username"><br><br>
+                    <label for="pass">Password : </label>
+                    <input type="password" placeholder="Enter Password" name="password"><br><br>
+
+                    <a href="./shop.html"><button type="submit">Login</button></a><br><br>
+                    <input type="checkbox" checked="checked"><span style="color: white"> Remember me &nbsp | &nbsp</span>
+                    <a href="#forgotpass">Forgot Password? </a><br><br>
+                </div>
+            <!-- </form> -->
+        </div>
+    </section>
 </body>
 </html>

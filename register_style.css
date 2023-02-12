@@ -73,7 +73,7 @@ button:hover {
 .container2 .hero p{
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: black;
     /* -webkit-text-stroke: 0.5px red; */
     /* background-color: black; */
     line-height: 0.1em;
@@ -82,14 +82,14 @@ button:hover {
     font-size: 8em;
     -webkit-text-stroke: 4px red;
 }
+.form {
+    color: white;
+}
 .form a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
-.form label {
-    color: white;
-}
-input[type=text], select, input[type=password] {
+input[type=text], input[type=password], input[type=tel], select {
     width: 15%;
     padding: 12px 20px;
     margin: 8px 0;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register_style.css">
+    <title>Register JubJib Shop</title>
+</head>
+<style>
+    body {
+        background-image: url('./image/reg.jpg');
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+</style>
+<body>
+    <section class="navigation_area">
+        <div class="container"> 
+            <div class="logo">
+                <a href="./index.html"><img src="./image/logo.jpg" alt="logopic"></a>
+                <a href="./index.html">JubJib Shop</a>
+            </div>
+            <div class="menu">
+                <a href="./index.html">Account</a>
+                <a href="./index.html">Wishlist</a>
+                <a href="./index.html">Cart</a>
+                <a href="./index.html"><button>Home</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="register_area">
+        <div class="container2">
+            <div class="hero">
+                <!-- <img src="./image/open.jpg" alt="heropic"> -->
+                <p id="bigtext">Register</p>
+            </div>
+            <!-- <form> -->
+                <div class="form">
+                    <label for="fname">Firstname : </label>
+                    <input type="text" placeholder="Enter Firstname" name="fname"><br><br>
+                    <label for="lname">Lastname : </label>
+                    <input type="text" placeholder="Enter Lastname" name="lname"><br><br>
+                    <label for="gender">Gender : </label>
+                    <select id="gender" name="gender">
+                        <option selected hidden>Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">LGBTQ+</option>
+                    </select><br><br>
+                    <label for="tel">Phone number : </label>
+                    <input type="tel" placeholder="Enter Tel" name="tel"><br><br>
+                    <label for="pass">Password : </label>
+                    <input type="password" placeholder="Enter Password" name="pass"><br><br>
+                    <label for="confirm">Confirm password : </label>
+                    <input type="password" placeholder="Enter Password" name="confirm"><br><br>
+                    <input type="checkbox"> ฉันยอมรับ . . . . . . . .<br><br>
+                    <a href="./index.html"><button type="submit">Register</button></a><br><br><br>
+                </div>
+            <!-- </form> -->
+        </div>
+    </section>
+</body>
+</html>

@@ -70,31 +70,41 @@ button:hover {
     justify-content: center;
     align-items: center;
 } */
-.container2 .hero p{
+.container2 .hero p {
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: black;
     /* -webkit-text-stroke: 0.5px red; */
     /* background-color: black; */
-    line-height: 0.1em;
+    /* line-height: 0.1em; */
 }
 #bigtext {
     font-size: 8em;
     -webkit-text-stroke: 4px red;
 }
-.form a {
-    text-decoration: none;
-    color: white;
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 8em;
+    margin-top: -12em;
 }
-.form label {
-    color: white;
+.glid_img img {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    object-fit: cover;
 }
-input[type=text], select, input[type=password] {
-    width: 15%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.glid_img p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    /* -webkit-text-stroke: 1px black; */
+}
+.glid_img .left {
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
 }

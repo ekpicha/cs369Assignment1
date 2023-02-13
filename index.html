@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/950b770978.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/950b770978.js" crossorigin="anonymous"></script>
     <title>JubJib Shop</title>
 </head>
 <style>
     body {
         background-image: url('./image/open2.jpg');
         background-size: cover;
+        background-position: center;
     }
 </style>
 <body>
@@ -18,13 +21,13 @@
         <div class="container"> 
             <div class="logo">
                 <a href="./index.html"><img src="./image/logo.jpg" alt="logopic"></a>
-                <a href="./index.html">JubJib Shop</a>
+                <a href="./index.html">JubJib Shop <i class="fa-brands fa-shopify"></i></a>
             </div>
             <div class="menu">
-                <a href="./index.html">Account</a>
-                <a href="./index.html">Wishlist</a>
-                <a href="./index.html">Cart</a>
-                <a href="./register.html"><button>Register</button></a>
+                <a href="./index.html"><i class="fa-solid fa-user"></i> Account</a>
+                <a href="./index.html"><i class="fa-solid fa-heart"></i> Wishlist</a>
+                <a href="./index.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="./register.html"><button><i class="fa-solid fa-registered"></i> Register</button></a>
             </div>
         </div>
     </section>
@@ -37,18 +40,18 @@
                 <p>-- ต้องการอุปกรณ์ IT เมื่อไหร่ แค่แวะมา :D --</p>
             </div>
             <br><br><br><br>
-            <!-- <form> -->
+            <form>
                 <div class="form">
                     <label for="user">Username : </label>
                     <input type="text" placeholder="Enter Username" name="username"><br><br>
                     <label for="pass">Password : </label>
                     <input type="password" placeholder="Enter Password" name="password"><br><br>
 
-                    <a href="./shop.html"><button type="submit">Login</button></a><br><br>
-                    <input type="checkbox" checked="checked"><span style="color: white"> Remember me &nbsp | &nbsp</span>
+                    <button type="button" onclick="location.href='./shop.html'"><i class="fa-solid fa-right-to-bracket"></i> Login</button><br><br>
+                    <input type="checkbox" checked="checked"><span> Remember me &nbsp | &nbsp</span>
                     <a href="#forgotpass">Forgot Password? </a><br><br>
                 </div>
-            <!-- </form> -->
+            </form>
         </div>
     </section>
 </body>

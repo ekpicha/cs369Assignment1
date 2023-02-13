@@ -82,19 +82,101 @@ button:hover {
     font-size: 8em;
     -webkit-text-stroke: 4px red;
 }
-.form a {
+.form {
+    /* background-color: grey; */
+}
+.form span, .form a, .form label {
     text-decoration: none;
     color: white;
 }
-.form label {
-    color: white;
-}
 input[type=text], select, input[type=password] {
-    width: 15%;
+    width: 20em;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+@media only screen and (max-width : 875px) {
+    .navigation_area .container {
+        font-size: 0.9em !important;
+    }
+}
+@media only screen and (max-width : 775px) {
+    .navigation_area .container {
+        font-size: 0.8em !important;
+    }
+}
+@media only screen and (max-width : 675px) {
+    .navigation_area .container {
+        font-size: 0.7em !important;
+    }
+    .container2 .hero p{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width : 575px) {
+    .navigation_area .container {
+        font-size: 0.6em !important;
+    }
+    #bigtext {
+        font-size: 7em;
+        -webkit-text-stroke: 3.5px red;
+    }
+    .container2 .hero p{
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width : 495px) {
+    .navigation_area .container {
+        font-size: 0.5em !important;
+    }
+    #bigtext {
+        font-size: 6em;
+        -webkit-text-stroke: 3px red;
+    }
+    .container2 .hero p{
+        font-size: 1.3em;
+    }
+    .form span, .form a, .form label{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width : 425px) {
+    .navigation_area .container {
+        font-size: 0.45em !important;
+    }
+    #bigtext {
+        font-size: 5em;
+        -webkit-text-stroke: 2.5px red;
+    }
+    .container2 .hero p{
+        font-size: 1.2em;
+    }
+    input[type=text], select, input[type=password] {
+        width: 15em;
+    }
+    .form span, .form a, .form label {
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width : 395px) {
+    .navigation_area .container {
+        font-size: 0.25em !important;
+    }
+    #bigtext {
+        font-size: 4em;
+        -webkit-text-stroke: 2px red;
+    }
+    .container2 .hero p{
+        font-size: 1em;
+    }
+    input[type=text], select, input[type=password] {
+        width: 13em;
+    }
+    .form span, .form a, .form label {
+        font-size: 0.6em;
+    }
 }

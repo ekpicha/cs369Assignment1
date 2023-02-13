@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="shop_style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/950b770978.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/950b770978.js" crossorigin="anonymous"></script>
     <title>Menu JubJib Shop</title>
 </head>
 <style>
     body {
         background-image: url('./image/shopping.jpg');
-        width: 100%;
-        height: 100%;
         background-size: cover;
         background-position: center;
     }
@@ -21,58 +21,73 @@
         <div class="container"> 
             <div class="logo">
                 <a href="./index.html"><img src="./image/logo.jpg" alt="logopic"></a>
-                <a href="./index.html">JubJib Shop</a>
+                <a href="./index.html">JubJib Shop <i class="fa-brands fa-shopify"></i></a>
             </div>
             <div class="menu">
-                <a href="./index.html">Account</a>
-                <a href="./index.html">Wishlist</a>
-                <a href="./index.html">Cart</a>
-                <a href="./index.html"><button>Logout</button></a>
+                <a href="./index.html"><i class="fa-solid fa-user"></i> Account</a>
+                <a href="./index.html"><i class="fa-solid fa-heart"></i> Wishlist</a>
+                <a href="./index.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="./index.html"><button><i class="fa-solid fa-right-from-bracket"></i> Logout</button></a>
             </div>
         </div>
     </section>
 
-    <section class="herosection_area">
-        <div class="container2">
-            <div class="hero">
-                <p id="bigtext">Shopping Page</p>
-            </div>
+    <div class="container2">
+        <div class="hero">
+            <p id="bigtext">Shopping Page</p>
         </div>
-        <div class="grid_container">
-            <div class="glid_img">
-                <p>Fan</p>
-                <img src="./image/fan.png" alt="item">
-                <p class="left">Detail : . . .</p>
-                <p class="left">Price : 15$</p>
-                <a href="#addcart"><button>+ Cart</button></a>
-            </div>
-            <div class="glid_img">
-                <p>Mainboard</p>
-                <img src="./image/mainboard.png" alt="item">
-                <p class="left">Detail : . . .</p>
-                <p class="left">Price : 20$</p>
-                <a href="#addcart"><button>+ Cart</button></a>
-            </div>
-            <div class="glid_img">
-                <p>Processor</p>
-                <img src="./image/processor.png" alt="item">
-                <p class="left">Detail : . . .</p>
-                <p class="left">Price : 10$ </p>
-                <a href="#addcart"><button>+ Cart</button></a>
-            </div>
-            <!-- <div class="glid_img">
-                <p>processor</p>
-                <img src="./image/processor.png" alt="item">
-            </div>
-            <div class="glid_img">
-                <p>mainboard</p>
-                <img src="./image/mainboard.png" alt="item">
-            </div>
-            <div class="glid_img">
-                <p>fan</p>
-                <img src="./image/fan.png" alt="item">
-            </div> -->
+    </div>
+
+    <div class="container3">
+        <div class="item">
+            <p class="title">Case</p>
+            <img class="img_item" src="./image/case.png">
+            <p class="baht">$ 27</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
         </div>
-    </section>
+        <div class="item">
+            <p class="title">CPU</p>
+            <img class="img_item" src="./image/cpu.png">
+            <p class="baht">$ 97</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Display Card</p>
+            <img class="img_item" src="./image/displaycard.png">
+            <p class="baht">$ 236</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Keyboard</p>
+            <img class="img_item" src="./image/keyboard.png">
+            <p class="baht">$ 41</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Mainboard</p>
+            <img class="img_item" src="./image/mainboard.png">
+            <p class="baht">$ 61</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Monitor</p>
+            <img class="img_item" src="./image/monitor.png">
+            <p class="baht">$ 270</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Mouse</p>
+            <img class="img_item" src="./image/mouse.png">
+            <p class="baht">$ 60</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+        <div class="item">
+            <p class="title">Power Supply</p>
+            <img class="img_item" src="./image/powersupply.png">
+            <p class="baht">$ 85</p>
+            <a href="#addcart"><button><i class="fa-solid fa-circle-plus"></i> Add to Cart</button></a><br><br>
+        </div>
+    </div>
+    
 </body>
 </html>
